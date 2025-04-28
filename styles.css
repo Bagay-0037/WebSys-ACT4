@@ -1,0 +1,25 @@
+.h1 {
+    display: flex ;
+    justify-content: center;
+}
+
+    
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .input-group {
+        flex-direction: column;
+        
+    }
+    
+    
+    #searchInput {
+        margin-bottom: 10px;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
